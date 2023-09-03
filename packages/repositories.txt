@@ -1,4 +1,6 @@
-#added
+
+
+# Added
 [universe]
 Server = https://universe.artixlinux.org/$arch
 Server = https://mirror1.artixlinux.org/universe/$arch
