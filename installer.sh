@@ -16,7 +16,7 @@ cat ./packages/repositories.txt >> /etc/pacman.conf
 pacman -Syyu
 
 # Native packages
-pacman -S --needed - < ./packages/pkglist.txt
+pacman -S --needed - < ./packages/native.pkglist.txt
 # Aur packages
 yay -S --needed - < ./packages/aur.pkglist.txt
 
